@@ -1,0 +1,1 @@
+global.enemy_number = 150
