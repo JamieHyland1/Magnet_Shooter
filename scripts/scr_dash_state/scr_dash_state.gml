@@ -1,8 +1,9 @@
 /// @description move player to specified x,y coordinate
-sprite_index = spr_dash
 isDashing = true;
-if(distance_to_point(dashX,dashY) > 0.1){
-	var move_spd = floor(700*global.seconds_passed)
+var move_spd = 1000*global.seconds_passed
+var dash_fade =  instance_create_depth(x, y, 0,  obj_dash_fade);
+dash_fade.sprite_index = sprite_index;
+if(point_distance(x,y,dashX,dashY) > move_spd){
 	move_towards_point(dashX,dashY,move_spd);
 }else{
 	speed = 0;
