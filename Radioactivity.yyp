@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "d035a04d-e317-4648-be54-fe3e6014fbdd",
+            "Value": {
+                "id": "0a9a9c34-62c1-403d-87fd-a0d4588d75dc",
+                "resourcePath": "objects\\obj_dash_fade\\obj_dash_fade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d24cd9ac-a801-4679-9441-2b01f12184a2",
             "Value": {
                 "id": "d8aaaf09-00c0-413d-b34e-d8116cec0ec1",
