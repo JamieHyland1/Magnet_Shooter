@@ -5,17 +5,18 @@
 //should be using the self keyword but as only one player object exists
 //in game it should be fine for now
 //using floor to make sure we have whole number values, otherwise the while loop can get stuck in an infinite loop :/
-var dashX = floor(x + 300*dcos(direction));
-var dashY = floor(y + 300*dsin(-direction)); //as height is top down use negative direction
+//var dashX = floor(x + 300*dcos(direction));
+//var dashY = floor(y + 300*dsin(-direction)); //as height is top down use negative direction
 
 //if the player can dash move towards new x,y coordinate
-if(can_dash) {
+//if(can_dash) {
 //this needs to be fixed as it needs to user some sort of linear interpolation instead of just teleporitng
 //if the player teleports off screen they dont move the disance they should have, basically they should have a velocity 
 //that degrades over time for the dash
 
-	x = newX//lerp(x,newX,0.3);
-	y = newY//lerp(y,newY,0.3);
+//	x = newX//lerp(x,newX,0.3);
+//	y = newY//lerp(y,newY,0.3);
 
-	can_dash = false;
-}
+//	can_dash = false;
+//}
+state = states.dash;
