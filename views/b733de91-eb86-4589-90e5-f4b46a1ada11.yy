@@ -6,7 +6,8 @@
     "children": [
         "6dfaa14d-8423-44db-a61c-fc0f3d993955",
         "c20668c6-f9a6-41e2-8681-b5fdd03071dd",
-        "f875c6c1-e4fb-473c-9cb3-400a1fc26c40"
+        "f875c6c1-e4fb-473c-9cb3-400a1fc26c40",
+        "d035a04d-e317-4648-be54-fe3e6014fbdd"
     ],
     "filterType": "GMObject",
     "folderName": "player_groups",
