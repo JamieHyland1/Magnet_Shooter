@@ -1,5 +1,5 @@
 /// @description move player to specified x,y coordinate
-sprite_index = spr_dashing
+sprite_index = spr_dash
 isDashing = true;
 if(distance_to_point(dashX,dashY) > 0.1){
 	var move_spd = floor(700*global.seconds_passed)
