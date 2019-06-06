@@ -6,3 +6,7 @@ movement[1] = ord("W")
 movement[2] = ord("A")
 movement[3] = ord("S")
 player_score = 0;
+can_dash = true;
+dash_distance = 20;
+pre_dashX = 0;
+pre_dashY = 0;
