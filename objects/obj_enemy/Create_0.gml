@@ -7,3 +7,4 @@ magnet_distance = 0;
 magnet_spd = 0
 image_xscale = 0.5
 image_yscale = 0.5
+num_coins = floor(random(5))

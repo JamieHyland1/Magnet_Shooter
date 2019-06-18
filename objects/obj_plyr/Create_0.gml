@@ -11,3 +11,5 @@ player_score = 0;
 can_dash = true;
 isDashing = false;
 state = states.normal; //set the players default state
+gold = 0;
+instance_create_depth(0,0,0,obj_cursor)
