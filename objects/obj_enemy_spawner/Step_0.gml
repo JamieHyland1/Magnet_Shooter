@@ -1,2 +1,2 @@
 /// @description Spawn enemies
-if(alarm[0] == -1) alarm[0] = 15
+if(alarm[0] == -1) alarm[0] = 2*room_speed
